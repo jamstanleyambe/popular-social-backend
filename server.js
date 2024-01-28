@@ -110,10 +110,5 @@ mongoose.connection.once('open', () => {
             console.log('Error trigerring Pusher')
 } })
 })
-
-
-
 //listen
-
-
 app.listen(port, () => console.log(`Listening on localhost: ${port}`))
